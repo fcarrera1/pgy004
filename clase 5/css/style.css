@@ -1,0 +1,24 @@
+.avatar{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.col-izq{
+    background-color: gray;
+    min-height: 600px;
+}
+
+.nav_item{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.nav_item:hover .fa-solid{
+    transition: all 1s;
+    transform: rotate(360deg);
+    font-size: 30px;
+    color: white;
+}
